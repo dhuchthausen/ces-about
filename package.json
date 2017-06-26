@@ -1,0 +1,25 @@
+{
+  "name": "ces-about",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloudogu/ces-about.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cloudogu/ces-about/issues"
+  },
+  "homepage": "https://github.com/cloudogu/ces-about#readme",
+  "dependencies": {
+    "browser-sync": "^2.18.12"
+  },
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}

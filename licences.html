@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>CES Theme</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <link rel="stylesheet" href="bower_components/ces-theme/dist/css/ces.css" media="screen">    <!-- favicons -->
+    <link rel="icon" type="image/png" href="images/favicon/favicon-64px.png" sizes="64x64"/>
+    <link rel="icon" type="image/png" href="images/favicon/favicon-32px.png" sizes="32x32"/>
+    <link rel="icon" type="image/png" href="images/favicon/favicon-16px.png" sizes="16x16"/>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="../bower_components/html5shiv/dist/html5shiv.js"></script>
+    <script src="../bower_components/respond/dest/respond.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <![endif]-->
+
+    <style>
+        body {
+            font-family: "Droid Sans", Raleway, "Helvetica Neue";
+            padding-top: 60px;
+        }
+
+        .heading {
+            font-family: inherit;
+            font-size: 5rem;
+            line-height: 5rem;
+            font-weight: bold;
+            top: 35%;
+            position: relative;
+            letter-spacing: 2px;
+        }
+    </style>
+    <script>
+        function toggle(control, displayoption) {
+            var elem = document.getElementById(control);
+            if (elem.style.display == "none") {
+                elem.style.display = displayoption;
+            } else {
+                elem.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+<!--Navigavtionsbar oben-->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand">
+                <img class="img-responsive" alt="Cloudogu" src="bower_components/ces-theme/dist/images/logo/blib-white-30px.png">
+            </a>
+        </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li style="font-size: 18px;"><a href="index.html">About Cloudogu</a></li>
+                    <li class="active"><a href="licences.html">Licences</a></li>
+                    <li><a href="privacyPolicy.html">Pirvacy Policy</a></li>
+                    <li><a href="termsAndConditions.html">Terms and Conditions</a></li>
+                    <li><a href="imprint_Impressum.html">Imprint-Impressum</a></li>
+                </ul>
+            </div>
+    </div>
+</nav>
+</br></br></br>
+<div class="bs-component text-center">
+    <h1 class="heading text-muted">about cloudogu</h1> <!--heading-->
+    <h3 class="text-muted">The most amazing development platform we've ever built</h3>
+</div>
+
+</br></br></br></br>
+
+</body>
+</html>
