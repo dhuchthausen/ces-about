@@ -15,6 +15,7 @@
     "tests"
   ],
   "dependencies": {
-    "ces-theme": "https://github.com/cloudogu/ces-theme.git"
+    "ces-theme": "https://github.com/cloudogu/ces-theme.git",
+    "bootstrap": "https://github.com/twbs/bootstrap.git"
   }
 }
