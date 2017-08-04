@@ -1,0 +1,59 @@
+<div class="bs-component text-center">
+
+
+  <br>
+  <br>
+  <br>
+  <img alt="" src="./assets/logo/blib-blue-160px.png">
+
+  <h1 class="heading text-muted">about cloudogu</h1>
+
+</div>
+<br>
+<br>
+<br>
+
+<div class="bs-docs-section container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="bs-component text-center">
+        <h4>
+          <p>Story and Mission</p>
+          ______________________</h4>
+        <br>
+        <article style="font-size: 1.6rem">
+          <p>Cloudogu is not just another software development stack - it is an open platform, which lets you choose how and
+            where your team creates great software. Each service or tool is delivered as a Dōgu, a Docker container, that
+            can be easily integrated in your environment just by pulling it from our registry. We have a growing number of
+            ready-to-use Dōgus, e.g. SCM-Manager, Jenkins, Nexus, SonarQube, Redmine and many more.</p>
+          Every Dōgu can be tailored to your specific needs. You can even bring along your own Dōgus! Take advantage of a central authentication
+          service, a dynamic navigation, that lets you easily switch between the web UIs and a smart configuration magic,
+          which automatically detects and responds to dependencies between Dōgus. Cloudogu is open source and it runs either
+          on-premise or in the cloud. So, what are you waiting for?
+        </article>
+      </div>
+
+    </div>
+
+    <div class="col-md-offset-1 col-md-5">
+      <div class="bs-component text-center">
+        <h4>
+          <p>We are Cloudogu</p>______________________</h4>
+
+        <br>
+
+        <div class="grid grid-pad">
+            <a *ngFor="let member of members" class="col-1-5" 
+                target="_blank" href="{{member.references}}"><img  data-toggle="tooltip" title="{{member.name}}" 
+                class="img-circle members" alt="{{member.name}}" src="{{member.imagesource}}"/></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<div class="bs-component text-center">
+  <h3 class="text-muted">The most amazing development platform we've ever built</h3>
+</div>
+
