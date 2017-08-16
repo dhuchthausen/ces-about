@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {LICENSES} from './license';
 
 
 @Component({
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   templateUrl: './licenses.component.html'
 })
 export class LicensesComponent {
+  licenses = LICENSES;
 }
 

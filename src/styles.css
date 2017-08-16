@@ -36,16 +36,23 @@ body {
   letter-spacing: 2px;
 }
 
-.panel-heading .accordion-toggle:after {
-  font-family: 'Glyphicons Halflings';
-  content: "\e114";
-  float: left;
-}
-
-.panel-heading .accordion-toggle.collapsed:after {
-  content: "\e080";
-}
 
 .members {
     padding-bottom: 10px;
+}
+
+.accpanel {
+  margin-top: 2px;
+  background-color: #fff;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+}
+
+.tooltip.show {
+  opacity: 1;
+}
+
+.tooltip-inner {
+  background-color: #16688d;
+  color: white;
 }

@@ -22,10 +22,6 @@
         "../node_modules/ces-theme/dist/css/ces.css",
         "styles.css"
       ],
-      "scripts": [
-        "../node_modules/jquery/dist/jquery.js",
-        "../node_modules/bootstrap/dist/js/bootstrap.min.js"
-        ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",

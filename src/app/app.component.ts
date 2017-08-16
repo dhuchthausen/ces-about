@@ -6,4 +6,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'about cloudogu';
+  public isCollapsed = true;
 }
