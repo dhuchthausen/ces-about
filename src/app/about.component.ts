@@ -8,21 +8,27 @@ import { MEMBERS } from './member';
 
 export class AboutComponent {
     members = MEMBERS;
-    membersArray = new Array() as Array<Object>;;
+    membersArray = new Array() as Array<Object>;
+    numbersOfEntries = 9;
     numbers;
-    constructor() {
-      var counter = (MEMBERS.length-(MEMBERS.length%15))/15;
-      if(MEMBERS.length%15!=0) counter = counter +1;
+    constructor() { // seperating MEMBERS in extra Array for Carousel-View
+      var counter = (MEMBERS.length-(MEMBERS.length%this.numbersOfEntries))/this.numbersOfEntries;
+      if(MEMBERS.length%this.numbersOfEntries!=0) counter = counter +1;
+
+      var j = 0;
 
       for(var i=0; i<counter; i++){
         var helper = new Array() as Array<Object>;
-        for(var j=i; j<i+15; j++){
+        while(j<((i+1)*this.numbersOfEntries) && j < MEMBERS.length){
           helper.push(this.members[j]);
+          j++;
         }
         this.membersArray.push(helper);
-        
       }
-     // console.log(this.membersArray);
+
+
+      this.numbers = Array(counter).fill(0).map((x,i)=>i);
+      console.log(this.numbers);
     }
 
 

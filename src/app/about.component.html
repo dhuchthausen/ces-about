@@ -44,44 +44,38 @@
           <p>We are Cloudogu</p>______________________</h4>
         <br>
 
-        <div class="grid grid-pad">
-             
-        
 
-      <!--        <ngb-carousel>
-                  <ng-template ngbSlide *ngFor="let membersar of membersArray" id="0">
-                      <a *ngFor="let member of membersar" class="col-1-5" target="_blank">
-                        <img class="img-circle" alt="{{member.name}}" src="{{member.imagesource}}"/>
-                      </a>                  
-                  </ng-template>
-                </ngb-carousel>
 
-              -->
-          <!--      <ngb-carousel *ngFor="let member of members; let i = index">
-                  <div *ngIf="i%15==0">  
-                  <ng-template ngbSlide *ngFor="let memb of member[i] id="{{member.name}}">
-                          <img class="img-circle" alt="{{member.name}}" src="{{member.imagesource}}"/>                    
-                    </ng-template>
+
+        <ngb-carousel>
+          <div *ngFor="let counter of numbers">
+            <ng-template ngbSlide>
+              <div class="col-xs-1 "></div>
+              <div class="col-xs-10">
+                <div class='modTeamMember style-2 col-xs-4 padding-0' *ngFor="let member of membersArray[counter]">
+                  <div class='member'>
+                    <img class="img-circle members avatar" alt="{{member.name}}" src="{{member.imagesource}}" />
+                    <div class='overlay'>
+                      <ul class='socials'>
+                        <li *ngIf="member.github"><a href="{{member.github}}" target="_blank"><i class='fa fa-github'></i></a></li>
+                        <li *ngIf="member.xing"><a href="{{member.xing}}" target="_blank"><i class='fa fa-xing'></i></a></li>
+                        <li *ngIf="member.twitter"><a href="{{member.twitter}}" target="_blank"> <i class='fa fa-twitter'></i></a></li>
+                        <li *ngIf="member.linkedin"><a href="{{member.linkedin}}" target="_blank"> <i class='fa fa-linkedin'></i></a></li>
+                        <li *ngIf="member.email"><a href="{{member.email}}" target="_blank"> <i class='fa fa-envelope'></i></a></li>
+                        <li *ngIf="member.stackoverflow"><a href="{{member.stackoverflow}}" target="_blank"><i class='fa fa-stack-overflow'></i></a></li>
+                        <li *ngIf="member.bitbucket"><a href="{{member.bitbucket}}" target="_blank"><i class='fa fa-bitbucket'></i></a></li>
+                        <li *ngIf="member.blog"><a href="{{member.blog}}" target="_blank"><i class='fa fa-comment'></i></a></li>
+                        <li *ngIf="member.sonstiges"><a href="{{member.sonstiges}}" target="_blank"><i class='fa fa-globe'></i></a> </li>
+                      </ul>
+                    </div>
                   </div>
-                  </ngb-carousel>-->
+                </div>
+              </div>
+              <div class="col-xs-1"></div>
+            </ng-template>
+          </div>
+        </ngb-carousel>
 
-              
-          
-            <a *ngFor="let member of members" class="col-1-5" target="_blank">
-                <ng-template #tipContent>
-                  <b>{{member.name}}</b><br>
-                  <div *ngIf="member.github"><a href="{{member.github}}" target="_blank">GITHUB</a></div>
-                  <div *ngIf="member.xing"><a href="{{member.xing}}" target="_blank">xing</a></div>
-                  <div *ngIf="member.twitter"><a href="{{member.twitter}}" target="_blank">twitter</a></div>
-                  <div *ngIf="member.linkedin"><a href="{{member.linkedin}}" target="_blank">linkedin</a></div>
-                  <div *ngIf="member.email"><a href="{{member.email}}" target="_blank">email</a></div>
-                  <div *ngIf="member.stackoverflow"><a href="{{member.stackoverflow}}" target="_blank">stackoverflow</a></div>
-                  <div *ngIf="member.bitbucket"><a href="{{member.bitbucket}}" target="_blank">bitbucket</a></div>
-                  <div *ngIf="member.blog"><a href="{{member.blog}}" target="_blank">blog</a></div>
-                  <div *ngIf="member.sonstiges"><a href="{{member.sonstiges}}" target="_blank">sonstiges</a></div>
-                </ng-template>  
-                <img [ngbTooltip]="tipContent" triggers="mouseover" class="img-circle members" alt="{{member.name}}" src="{{member.imagesource}}"/></a>
-        </div>
       </div>
     </div>
   </div>
