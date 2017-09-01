@@ -5,6 +5,10 @@
 /* FONT PATH
  * -------------------------- */
 
+/* 
+* based on Osum Jekyll Theme, modified for About Page of Cloudogu
+*/
+
 @font-face {
   font-family: 'FontAwesome';
   src: url(font-awesome/fontawesome-webfont.eot);
@@ -22,6 +26,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+
 /* makes the font 33% larger relative to the icon container */
 .fa-lg {
   font-size: 1.33333333em;
@@ -506,7 +512,7 @@
 .fa-random:before {
   content: "\f074";
 }
-.fa-comment:before {
+.fa-blog:before {
   content: "\f075";
 }
 .fa-magnet:before {
@@ -782,7 +788,7 @@
 .fa-sort-asc:before {
   content: "\f0de";
 }
-.fa-envelope:before {
+.fa-email:before {
   content: "\f0e0";
 }
 .fa-linkedin:before {
@@ -1196,7 +1202,7 @@
 .fa-dropbox:before {
   content: "\f16b";
 }
-.fa-stack-overflow:before {
+.fa-stackoverflow:before {
   content: "\f16c";
 }
 .fa-instagram:before {

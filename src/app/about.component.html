@@ -25,7 +25,6 @@
           ______________________</h4>
         <br>
         <br>
-        <br>
         <article style="font-size: 1.6rem">
           <p>Cloudogu is not just another software development stack - it is an open platform, which lets you choose how and
             where your team creates great software. Each service or tool is delivered as a Dōgu, a Docker container, that
@@ -46,29 +45,29 @@
           <p>We are Cloudogu</p>______________________</h4>
         <br>
 
-
-
-
         <ngb-carousel>
-          <div *ngFor="let counter of numbers">
+          <div *ngFor="let slide of slidesAmount">
             <ng-template ngbSlide>
               <div class="col-xs-1 "></div>
               <div class="col-xs-10 same-height-as-width">
                 <div class="content padding-carousel">
-                  <div class='modTeamMember style-2 col-xs-4 padding-0' *ngFor="let member of membersArray[counter]">
+                  <div class='modTeamMember style-2 col-xs-4 padding-0' *ngFor="let member of membersArrayForCarousel[slide]">
                     <div class='member'>
                       <img class="img-circle members avatar" alt="{{member.name}}" src="{{member.imagesource}}" />
                       <div class='overlay'>
                         <ul class='socials'>
-                          <li *ngIf="member.github"><a href="{{member.github}}" target="_blank"><i class='fa fa-github'></i></a></li>
-                          <li *ngIf="member.xing"><a href="{{member.xing}}" target="_blank"><i class='fa fa-xing'></i></a></li>
-                          <li *ngIf="member.twitter"><a href="{{member.twitter}}" target="_blank"> <i class='fa fa-twitter'></i></a></li>
-                          <li *ngIf="member.linkedin"><a href="{{member.linkedin}}" target="_blank"> <i class='fa fa-linkedin'></i></a></li>
-                          <li *ngIf="member.email"><a href="{{member.email}}" target="_blank"> <i class='fa fa-envelope'></i></a></li>
-                          <li *ngIf="member.stackoverflow"><a href="{{member.stackoverflow}}" target="_blank"><i class='fa fa-stack-overflow'></i></a></li>
-                          <li *ngIf="member.bitbucket"><a href="{{member.bitbucket}}" target="_blank"><i class='fa fa-bitbucket'></i></a></li>
-                          <li *ngIf="member.blog"><a href="{{member.blog}}" target="_blank"><i class='fa fa-comment'></i></a></li>
-                          <li *ngIf="member.sonstiges"><a href="{{member.sonstiges}}" target="_blank"><i class='fa fa-globe'></i></a> </li>
+                          <small *ngFor="let icon of iconAmount">
+                            <li *ngIf="member.links[icon]">
+
+                              <a *ngIf="member.links[icon].name!='email'" href="{{member.links[icon].link}}" target="_blank">
+                                <i class='fa fa-{{member.links[icon].name}}'></i>
+                              </a>
+                              <a *ngIf="member.links[icon].name=='email'" href="mailto:{{member.links[icon].link}}">
+                                  <i class='fa fa-{{member.links[icon].name}}'></i>
+                                </a>
+
+                            </li>
+                          </small>
                         </ul>
                       </div>
                     </div>
