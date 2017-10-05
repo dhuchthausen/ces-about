@@ -5,7 +5,7 @@ export class License {
 
 export const LICENSES: License[] = [
     {
-        name: "Cloudogu Ecosystem",
+        name: "Cloudogu EcoSystem",
         description: `<p>Copyright (c) 2017 Cloudogu GmbH</p>
 
             <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
@@ -20,7 +20,7 @@ export const LICENSES: License[] = [
             OR OTHER DEALINGS IN THE SOFTWARE.`
     },
     {
-        name:"Cloudogu Usermanagement",
+        name:"Cloudogu User Management",
         description:`<p>Copyright (c) 2017 Cloudogu GmbH</p>
 
             <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
@@ -67,7 +67,7 @@ export const LICENSES: License[] = [
     },
     {
         name:"Redmine",
-        description:` <h3>GNU GENERAL PUBLIC LICENSE</h3>
+        description:` GNU GENERAL PUBLIC LICENSE
             <p>
               Version 2, June 1991
             </p>
@@ -79,7 +79,7 @@ export const LICENSES: License[] = [
                         of this license document, but changing it is not allowed.
                     </pre>
 
-            <h3>Preamble</h3>
+            <b>Preamble</b>
 
             <p>
               The licenses for most software are designed to take away your freedom to share and change it. By contrast, the GNU General
@@ -131,11 +131,11 @@ export const LICENSES: License[] = [
             </p>
 
 
-            <h3>TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION</h3>
+            <b>TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION</b>
 
 
             <p>
-              <strong>0.</strong> This License applies to any program or other work which contains a notice placed by the
+              0. This License applies to any program or other work which contains a notice placed by the
               copyright holder saying it may be distributed under the terms of this General Public License. The "Program",
               below, refers to any such program or work, and a "work based on the Program" means either the Program or any
               derivative work under copyright law: that is to say, a work containing the Program or a portion of it, either
@@ -151,7 +151,7 @@ export const LICENSES: License[] = [
             </p>
 
             <p>
-              <strong>1.</strong> You may copy and distribute verbatim copies of the Program's source code as you receive
+              1. You may copy and distribute verbatim copies of the Program's source code as you receive
               it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright
               notice and disclaimer of warranty; keep intact all the notices that refer to this License and to the absence
               of any warranty; and give any other recipients of the Program a copy of this License along with the Program.
@@ -163,7 +163,7 @@ export const LICENSES: License[] = [
             </p>
 
             <p>
-              <strong>2.</strong> You may modify your copy or copies of the Program or any portion of it, thus forming a
+              2. You may modify your copy or copies of the Program or any portion of it, thus forming a
               work based on the Program, and copy and distribute such modifications or work under the terms of Section 1
               above, provided that you also meet all of these conditions:
             </p>
@@ -171,18 +171,18 @@ export const LICENSES: License[] = [
             <dl>
               <dt></dt>
               <dd>
-                <strong>a)</strong> You must cause the modified files to carry prominent notices stating that you changed
+                a) You must cause the modified files to carry prominent notices stating that you changed
                 the files and the date of any change.
               </dd>
               <dt></dt>
               <dd>
-                <strong>b)</strong> You must cause any work that you distribute or publish, that in whole or in part contains
+                b) You must cause any work that you distribute or publish, that in whole or in part contains
                 or is derived from the Program or any part thereof, to be licensed as a whole at no charge to all third parties
                 under the terms of this License.
               </dd>
               <dt></dt>
               <dd>
-                <strong>c)</strong> If the modified program normally reads commands interactively when run, you must cause
+                c) If the modified program normally reads commands interactively when run, you must cause
                 it, when started running for such interactive use in the most ordinary way, to print or display an announcement
                 including an appropriate copyright notice and a notice that there is no warranty (or else, saying that you
                 provide a warranty) and that users may redistribute the program under these conditions, and telling the user
@@ -212,7 +212,7 @@ export const LICENSES: License[] = [
             </p>
 
             <p>
-              <strong>3.</strong> You may copy and distribute the Program (or a work based on it, under Section 2) in object
+              3. You may copy and distribute the Program (or a work based on it, under Section 2) in object
               code or executable form under the terms of Sections 1 and 2 above provided that you also do one of the following:
             </p>
 
@@ -222,20 +222,20 @@ export const LICENSES: License[] = [
             <dl>
               <dt></dt>
               <dd>
-                <strong>a)</strong> Accompany it with the complete corresponding machine-readable source code, which must
+                a) Accompany it with the complete corresponding machine-readable source code, which must
                 be distributed under the terms of Sections 1 and 2 above on a medium customarily used for software interchange;
                 or,
               </dd>
               <dt></dt>
               <dd>
-                <strong>b)</strong> Accompany it with a written offer, valid for at least three years, to give any third
+                b) Accompany it with a written offer, valid for at least three years, to give any third
                 party, for a charge no more than your cost of physically performing source distribution, a complete machine-readable
                 copy of the corresponding source code, to be distributed under the terms of Sections 1 and 2 above on a medium
                 customarily used for software interchange; or,
               </dd>
               <dt></dt>
               <dd>
-                <strong>c)</strong> Accompany it with the information you received as to the offer to distribute corresponding
+                c) Accompany it with the information you received as to the offer to distribute corresponding
                 source code. (This alternative is allowed only for noncommercial distribution and only if you received the
                 program in object code or executable form with such an offer, in accord with Subsection b above.)
               </dd>
@@ -257,7 +257,7 @@ export const LICENSES: License[] = [
             </p>
 
             <p>
-              <strong>4.</strong> You may not copy, modify, sublicense, or distribute the Program except as expressly provided
+              4. You may not copy, modify, sublicense, or distribute the Program except as expressly provided
               under this License. Any attempt otherwise to copy, modify, sublicense or distribute the Program is void, and
               will automatically terminate your rights under this License. However, parties who have received copies, or
               rights, from you under this License will not have their licenses terminated so long as such parties remain
@@ -265,7 +265,7 @@ export const LICENSES: License[] = [
             </p>
 
             <p>
-              <strong>5.</strong> You are not required to accept this License, since you have not signed it. However, nothing
+              5. You are not required to accept this License, since you have not signed it. However, nothing
               else grants you permission to modify or distribute the Program or its derivative works. These actions are prohibited
               by law if you do not accept this License. Therefore, by modifying or distributing the Program (or any work
               based on the Program), you indicate your acceptance of this License to do so, and all its terms and conditions
@@ -273,14 +273,14 @@ export const LICENSES: License[] = [
             </p>
 
             <p>
-              <strong>6.</strong> Each time you redistribute the Program (or any work based on the Program), the recipient
+              6. Each time you redistribute the Program (or any work based on the Program), the recipient
               automatically receives a license from the original licensor to copy, distribute or modify the Program subject
               to these terms and conditions. You may not impose any further restrictions on the recipients' exercise of the
               rights granted herein. You are not responsible for enforcing compliance by third parties to this License.
             </p>
 
             <p>
-              <strong>7.</strong> If, as a consequence of a court judgment or allegation of patent infringement or for any
+              7. If, as a consequence of a court judgment or allegation of patent infringement or for any
               other reason (not limited to patent issues), conditions are imposed on you (whether by court order, agreement
               or otherwise) that contradict the conditions of this License, they do not excuse you from the conditions of
               this License. If you cannot distribute so as to satisfy simultaneously your obligations under this License
@@ -309,7 +309,7 @@ export const LICENSES: License[] = [
             </p>
 
             <p>
-              <strong>8.</strong> If the distribution and/or use of the Program is restricted in certain countries either
+              8. If the distribution and/or use of the Program is restricted in certain countries either
               by patents or by copyrighted interfaces, the original copyright holder who places the Program under this License
               may add an explicit geographical distribution limitation excluding those countries, so that distribution is
               permitted only in or among countries not thus excluded. In such case, this License incorporates the limitation
@@ -317,7 +317,7 @@ export const LICENSES: License[] = [
             </p>
 
             <p>
-              <strong>9.</strong> The Free Software Foundation may publish revised and/or new versions of the General Public
+              9. The Free Software Foundation may publish revised and/or new versions of the General Public
               License from time to time. Such new versions will be similar in spirit to the present version, but may differ
               in detail to address new problems or concerns.
             </p>
@@ -330,17 +330,17 @@ export const LICENSES: License[] = [
             </p>
 
             <p>
-              <strong>10.</strong> If you wish to incorporate parts of the Program into other free programs whose distribution
+              10. If you wish to incorporate parts of the Program into other free programs whose distribution
               conditions are different, write to the author to ask for permission. For software which is copyrighted by the
               Free Software Foundation, write to the Free Software Foundation; we sometimes make exceptions for this. Our
               decision will be guided by the two goals of preserving the free status of all derivatives of our free software
               and of promoting the sharing and reuse of software generally.
             </p>
 
-            <p><strong>NO WARRANTY</strong></p>
+            <p>NO WARRANTY</p>
 
             <p>
-              <strong>11.</strong> BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY FOR THE PROGRAM,
+              11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY FOR THE PROGRAM,
               TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR
               OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING,
               BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE
@@ -349,7 +349,7 @@ export const LICENSES: License[] = [
             </p>
 
             <p>
-              <strong>12.</strong> IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT
+              12. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT
               HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO
               YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE
               OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE
@@ -382,7 +382,7 @@ export const LICENSES: License[] = [
               <br>
               <br></p>
 
-            <h3>GNU LESSER GENERAL PUBLIC LICENSE</h3>
+            GNU LESSER GENERAL PUBLIC LICENSE
 
             <p>Version 3, 29 June 2007 Copyright (C) 2007 Free Software Foundation, Inc. Everyone is permitted to copy and distribute
               verbatim copies of this license document, but changing it is not allowed.</p>
@@ -392,7 +392,7 @@ export const LICENSES: License[] = [
               <br>
               <br></p>
 
-            <h4>0. Additional Definitions.</h4>
+            0. Additional Definitions.
 
             <p>As used herein, “this License” refers to version 3 of the GNU Lesser General Public License, and the “GNU GPL”
               refers to version 3 of the GNU General Public License.</p>
@@ -418,14 +418,14 @@ export const LICENSES: License[] = [
               <br>
               <br></p>
 
-            <h4>1. Exception to Section 3 of the GNU GPL.</h4>
+            1. Exception to Section 3 of the GNU GPL.
 
             <p>You may convey a covered work under sections 3 and 4 of this License without being bound by section 3 of the
               GNU GPL.
               <br>
               <br></p>
 
-            <h4>2. Conveying Modified Versions.</h4>
+            2. Conveying Modified Versions.
 
             <p>If you modify a copy of the Library, and, in your modifications, a facility refers to a function or data to be
               supplied by an Application that uses the facility (other than as an argument passed when the facility is invoked),
@@ -438,7 +438,7 @@ export const LICENSES: License[] = [
               <br>
               <br></p>
 
-            <h4>3. Object Code Incorporating Material from Library Header Files.</h4>
+            3. Object Code Incorporating Material from Library Header Files.
 
             <p>The object code form of an Application may incorporate material from a header file that is part of the Library.
               You may convey such object code under terms of your choice, provided that, if the incorporated material is
@@ -451,7 +451,7 @@ export const LICENSES: License[] = [
               <br>
               <br></p>
 
-            <h4>4. Combined Works.</h4>
+            4. Combined Works.
 
             <p>You may convey a Combined Work under terms of your choice that, taken together, effectively do not restrict modification
               of the portions of the Library contained in the Combined Work and reverse engineering for debugging such modifications,
@@ -477,7 +477,7 @@ export const LICENSES: License[] = [
               <br>
               <br></p>
 
-            <h4>5. Combined Libraries.</h4>
+            5. Combined Libraries.
 
             <p>You may place library facilities that are a work based on the Library side by side in a single library together
               with other library facilities that are not Applications and are not covered by this License, and convey such
@@ -491,7 +491,7 @@ export const LICENSES: License[] = [
               <br>
               <br></p>
 
-            <h4>6. Revised Versions of the GNU Lesser General Public License.</h4>
+            6. Revised Versions of the GNU Lesser General Public License.
 
             <p>The Free Software Foundation may publish revised and/or new versions of the GNU Lesser General Public License
               from time to time. Such new versions will be similar in spirit to the present version, but may differ in detail
@@ -547,7 +547,7 @@ export const LICENSES: License[] = [
             <p>
               TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION</p>
             <p>
-              <strong>1. Definitions</strong>.</p>
+              1. Definitions.</p>
             <p>
               "License" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9
               of this document.</p>
@@ -591,13 +591,13 @@ export const LICENSES: License[] = [
               "Contributor" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by
               Licensor and subsequently incorporated within the Work.</p>
             <p>
-              <strong>2. Grant of Copyright License</strong>. Subject to the terms and conditions of this License, each Contributor
+              2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor
               hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright
               license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute
               the Work and such Derivative Works in Source or Object form.
             </p>
             <p>
-              <strong>3. Grant of Patent License</strong>. Subject to the terms and conditions of this License, each Contributor
+              3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor
               hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as
               stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise
               transfer the Work, where such license applies only to those patent claims licensable by such Contributor that
@@ -607,7 +607,7 @@ export const LICENSES: License[] = [
               Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under
               this License for that Work shall terminate as of the date such litigation is filed.</p>
             <p>
-              <strong>4. Redistribution</strong>. You may reproduce and distribute copies of the Work or Derivative Works
+             4. Redistribution. You may reproduce and distribute copies of the Work or Derivative Works
               thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet
               the following conditions:
             </p>
@@ -639,23 +639,23 @@ export const LICENSES: License[] = [
               </li>
 
 
-              <strong>5. Submission of Contributions</strong>. Unless You explicitly state otherwise, any Contribution intentionally
+              5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally
               submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this
               License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede
               or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.</p>
             <p>
-              <strong>6. Trademarks</strong>. This License does not grant permission to use the trade names, trademarks,
+              6. Trademarks. This License does not grant permission to use the trade names, trademarks,
               service marks, or product names of the Licensor, except as required for reasonable and customary use in describing
               the origin of the Work and reproducing the content of the NOTICE file.</p>
             <p>
-              <strong>7. Disclaimer of Warranty</strong>. Unless required by applicable law or agreed to in writing, Licensor
+              7. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing, Licensor
               provides the Work (and each Contributor provides its Contributions) on an "AS IS" BASIS, WITHOUT WARRANTIES
               OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions
               of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible
               for determining the appropriateness of using or redistributing the Work and assume any risks associated with
               Your exercise of permissions under this License.</p>
             <p>
-              <strong>8. Limitation of Liability</strong>. In no event and under no legal theory, whether in tort (including
+              8. Limitation of Liability. In no event and under no legal theory, whether in tort (including
               negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent
               acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect,
               special, incidental, or consequential damages of any character arising as a result of this License or out of
@@ -664,7 +664,7 @@ export const LICENSES: License[] = [
               has been advised of the possibility of such damages.
             </p>
             <p>
-              <strong>9. Accepting Warranty or Additional Liability</strong>. While redistributing the Work or Derivative
+              9. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative
               Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or
               other liability obligations and/or rights consistent with this License. However, in accepting such obligations,
               You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor,
@@ -714,7 +714,7 @@ export const LICENSES: License[] = [
             <p>
               TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION</p>
             <p>
-              <strong>1. Definitions</strong>.</p>
+              1. Definitions.</p>
             <p>
               "License" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9
               of this document.</p>
@@ -758,13 +758,13 @@ export const LICENSES: License[] = [
               "Contributor" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by
               Licensor and subsequently incorporated within the Work.</p>
             <p>
-              <strong>2. Grant of Copyright License</strong>. Subject to the terms and conditions of this License, each Contributor
+              2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor
               hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright
               license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute
               the Work and such Derivative Works in Source or Object form.
             </p>
             <p>
-              <strong>3. Grant of Patent License</strong>. Subject to the terms and conditions of this License, each Contributor
+              3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor
               hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as
               stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise
               transfer the Work, where such license applies only to those patent claims licensable by such Contributor that
@@ -774,7 +774,7 @@ export const LICENSES: License[] = [
               Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under
               this License for that Work shall terminate as of the date such litigation is filed.</p>
             <p>
-              <strong>4. Redistribution</strong>. You may reproduce and distribute copies of the Work or Derivative Works
+              4. Redistribution. You may reproduce and distribute copies of the Work or Derivative Works
               thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet
               the following conditions:
             </p>
@@ -806,23 +806,23 @@ export const LICENSES: License[] = [
               </li>
 
 
-              <strong>5. Submission of Contributions</strong>. Unless You explicitly state otherwise, any Contribution intentionally
+              5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally
               submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this
               License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede
               or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.</p>
             <p>
-              <strong>6. Trademarks</strong>. This License does not grant permission to use the trade names, trademarks,
+              6. Trademarks. This License does not grant permission to use the trade names, trademarks,
               service marks, or product names of the Licensor, except as required for reasonable and customary use in describing
               the origin of the Work and reproducing the content of the NOTICE file.</p>
             <p>
-              <strong>7. Disclaimer of Warranty</strong>. Unless required by applicable law or agreed to in writing, Licensor
+              7. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing, Licensor
               provides the Work (and each Contributor provides its Contributions) on an "AS IS" BASIS, WITHOUT WARRANTIES
               OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions
               of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible
               for determining the appropriateness of using or redistributing the Work and assume any risks associated with
               Your exercise of permissions under this License.</p>
             <p>
-              <strong>8. Limitation of Liability</strong>. In no event and under no legal theory, whether in tort (including
+              8. Limitation of Liability. In no event and under no legal theory, whether in tort (including
               negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent
               acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect,
               special, incidental, or consequential damages of any character arising as a result of this License or out of
@@ -831,7 +831,7 @@ export const LICENSES: License[] = [
               has been advised of the possibility of such damages.
             </p>
             <p>
-              <strong>9. Accepting Warranty or Additional Liability</strong>. While redistributing the Work or Derivative
+              9. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative
               Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or
               other liability obligations and/or rights consistent with this License. However, in accepting such obligations,
               You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor,
@@ -841,21 +841,21 @@ export const LICENSES: License[] = [
     },
     {
         name:"Ubuntu",
-        description:`<h3>Ubuntu is a collection of thousands of computer programs and documents created by a range of individuals, teams
-              and companies.</h3>
+        description:`Ubuntu is a collection of thousands of computer programs and documents created by a range of individuals, teams
+              and companies.
             <p>Each of these programs may come under a different licence. This licence policy describes the process that we
               follow in determining which software will be included by default in the Ubuntu operating system.
             </p>
             <p>Copyright licensing and trademarks are two different areas of law, and we consider them separately in Ubuntu.
               The following policy applies only to copyright licences. We evaluate trademarks on a case-by-case basis.</p>
-            <h3>Categories of software in Ubuntu</h3>
+            <b>Categories of software in Ubuntu</b>
             <p>The thousands of software packages available for Ubuntu are organised into four key groups or components: main,
               restricted, universe and multiverse. Software is published in one of these components based on whether or not
               it meets our free software philosophy, and the level of support we can provide for it.</p>
             <p>This policy only addresses the software that you will find in main and restricted, which contain software that
               is fully supported by the Ubuntu team and must comply with this policy.
             </p>
-            <h4>Ubuntu 'main' component licence policy</h4>
+            <b>Ubuntu 'main' component licence policy</b>
             <p>All application software included in the Ubuntu main component:</p>
             <ul>
               <li>Must include source code. The main component has a strict and non-negotiable requirement that application software
@@ -864,8 +864,8 @@ export const LICENSES: License[] = [
                 code does not convey the same freedom as having the right to change it. Without the ability to modify software,
                 the Ubuntu community cannot support software, fix bugs, translate it, or improve it.</li>
             </ul>
-            <h4>Ubuntu 'main' and 'restricted' component licence policy</h4>
-            <h5>All application software in both main and restricted must meet the following requirements:</h5>
+            <b>Ubuntu 'main' and 'restricted' component licence policy</b>
+            <b>All application software in both main and restricted must meet the following requirements:</b>
             <ul>
               <li>Must allow redistribution. Your right to sell or give away the software alone, or as part of an aggregate software
                 distribution, is important because:
@@ -901,13 +901,13 @@ export const LICENSES: License[] = [
                 the licence must explicitly permit distribution of software built from modified source code.
               </li>
             </ul>
-            <h3>Documentation, firmware and drivers</h3>
+            <b>Documentation, firmware and drivers</b>
             <p>Ubuntu contains licensed and copyrighted works that are not application software. For example, the default Ubuntu
               installation includes documentation, images, sounds, video clips and firmware. The Ubuntu community will make
               decisions on the inclusion of these works on a case-by-case basis, ensuring that these works do not restrict
               our ability to make Ubuntu available free of charge, and that you can continue to redistribute Ubuntu.
             </p>
-            <h3>Software installed by default</h3>
+            <b>Software installed by default</b>
             <p>When you install Ubuntu, you will typically install a complete desktop environment. It is also possible to install
               a minimal set of software (just enough to boot your machine) and then manually select the precise software
               applications to install. Such a "custom" install is usually favoured by server administrators, who prefer to
@@ -919,19 +919,19 @@ export const LICENSES: License[] = [
 
             <div class="p-strip--x-light p-contextual-footer">
 
-              <h3 class="p-heading--four">Want a fully managed private cloud?</h3>
+              <b class="p-heading--four">Want a fully managed private cloud?</b>
               <p>BootStack is your OpenStack private cloud with our experts responsible for design, deployment and availability.</p>
               <p><a target="_blank" href="https://www.ubuntu.com/cloud/contact-us?product=contextual-footer-cloud-managed-cloud"
                   onclick="dataLayer.push({'event' : 'GAEvent', 'eventCategory' : 'Contextual footer link', 'eventAction' : 'BootStack', 'eventLabel' : 'Want a fully managed private cloud?', 'eventValue' : undefined });">Get BootStack&nbsp;›</a></p>
 
 
-              <h3 class="p-heading--four">Get Ubuntu</h3>
+              <b class="p-heading--four">Get Ubuntu</b>
               <p>The open source software platform that runs everywhere from the smartphone, the tablet and the PC to the server
                 and the cloud.</p>
               <p><a target="_blank" href="https://www.ubuntu.com/download" onclick="dataLayer.push({'event' : 'GAEvent', 'eventCategory' : 'Contextual footer link', 'eventAction' : 'download section', 'eventLabel' : 'Get Ubuntu', 'eventValue' : undefined });">Download Ubuntu&nbsp;›</a></p>
 
 
-              <h3 class="p-heading--four">Further reading</h3>
+              <b class="p-heading--four">Further reading</b>
 
               <ul class="p-list">
 

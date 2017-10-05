@@ -12,25 +12,29 @@
 <br>
 
 <div class="bs-docs-section container">
-  <ngb-accordion [closeOthers]="true">
-    <ngb-panel *ngFor="let license of licenses">
+  <div class="row">
+    <div class="col-md-offset-2 col-md-8" align="justify">
+        <ngb-accordion [closeOthers]="true">
+          <ngb-panel *ngFor="let license of licenses">
 
-      <ng-template ngbPanelTitle>
-        <div class="accpanel panel-default">
-          <div class="panel-heading">
-            {{license.name}}
-          </div>
-        </div>
-      </ng-template>
+            <ng-template ngbPanelTitle>
+              <div class="accpanel panel-default">
+                <div class="panel-heading">
+                  {{license.name}}
+                </div>
+              </div>
+            </ng-template>
 
-      <ng-template ngbPanelContent>
-        <div class="panel-default panel-body"  align="justify">
-          <span [innerHTML]="license.description"></span>
-        </div>
-      </ng-template>
+            <ng-template ngbPanelContent>
+              <div class="panel-default panel-body" align="justify">
+                <span [innerHTML]="license.description"></span>
+              </div>
+            </ng-template>
 
-    </ngb-panel>
+          </ngb-panel>
 
-  </ngb-accordion>
+        </ngb-accordion>
+    </div>
   </div>
+</div>
 <br>
