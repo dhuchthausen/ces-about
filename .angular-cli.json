@@ -18,9 +18,7 @@
       "tsconfig": "tsconfig.app.json",
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
-      "styles": [  
-        "osum_css/style.css", 
-        "osum_css/font-awesome.css",
+      "styles": [ 
         "../node_modules/ces-theme/dist/css/ces.css",
         "styles.css"
       ],
