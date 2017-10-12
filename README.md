@@ -5,6 +5,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Development server
 
 First run `npm install`. Then run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+If you want to bind it to an ip-address, use `ng serve --host=(ip-address)`.
+If you want to open the app automatically use `ng serve --open`.
 
 ## Code scaffolding
 
