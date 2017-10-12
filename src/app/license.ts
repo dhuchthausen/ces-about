@@ -612,7 +612,7 @@ export const LICENSES: License[] = [
               the following conditions:
             </p>
             <p>
-
+            <ul>
               <li>You must give any other recipients of the Work or Derivative Works a copy of this License; and</li>
 
               <li>You must cause any modified files to carry prominent notices stating that You changed the files; and
@@ -637,7 +637,7 @@ export const LICENSES: License[] = [
                 Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies
                 with the conditions stated in this License.
               </li>
-
+            </ul>
 
               5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally
               submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this
@@ -779,7 +779,7 @@ export const LICENSES: License[] = [
               the following conditions:
             </p>
             <p>
-
+            <ul>
               <li>You must give any other recipients of the Work or Derivative Works a copy of this License; and</li>
 
               <li>You must cause any modified files to carry prominent notices stating that You changed the files; and
@@ -804,7 +804,7 @@ export const LICENSES: License[] = [
                 Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies
                 with the conditions stated in this License.
               </li>
-
+            </ul>
 
               5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally
               submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this

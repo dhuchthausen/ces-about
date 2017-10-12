@@ -11,6 +11,7 @@ import { LicensesComponent } from './licenses.component';
 
 import { AppRoutingModule } from './app-routing.module';
 
+
 @NgModule({
   declarations: [
     AppComponent,
