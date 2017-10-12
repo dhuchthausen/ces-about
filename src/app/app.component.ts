@@ -6,7 +6,7 @@ import { Router, NavigationEnd } from '@angular/router';
   templateUrl: './app.component.html'
 })
 export class AppComponent {
-  title = 'about cloudogu';
+  title = 'About Cloudogu';
   public isCollapsed = true;
 
   constructor(private router: Router){}
