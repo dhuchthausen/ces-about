@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "ces-theme": "https://github.com/cloudogu/ces-theme.git",
-    "@angular/cli": "1.2.3",
+    "@angular/cli": "1.4.9",
     "@angular/compiler-cli": "^4.0.0",
     "@angular/language-service": "^4.0.0",
     "@types/jasmine": "~2.5.53",
