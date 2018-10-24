@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 
 declare function checkGA(): any;
@@ -7,10 +7,13 @@ declare function checkGA(): any;
   selector: 'privacyPolicy',
   templateUrl: './privacyPolicy.component.html'
 })
-export class PrivacyPolicyComponent {
+export class PrivacyPolicyComponent implements OnInit{
   isGA: boolean;
 
   ngOnInit() {
-    this.isGA = checkGA();
+    setTimeout(() => {
+      this.isGA = checkGA();
+    }, 0);
   }
+
 }
