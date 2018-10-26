@@ -26,7 +26,8 @@
       "environments": {
         "dev": "environments/environment.ts",
         "prod": "environments/environment.prod.ts"
-      }
+      },
+      "scripts": ["assets/js/gaCheck.js"]
     }
   ],
   "e2e": {
